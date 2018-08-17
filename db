@@ -57,7 +57,7 @@ usage(){
   echo './db [-i <$file>] <$command> [$args]' >&2
   echo './db list # list keys' >&2
   echo './db get <$key>' >&2
-  echo './db update <$key> # reads content from stdin' >&2
+  echo './db update # reads content from stdin' >&2
   echo './db delete <$key>' >&2
 }
 
